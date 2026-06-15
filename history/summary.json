@@ -1,38 +1,38 @@
 [
   {
-    "name": "🌐 主站 (www.antwen.cn)",
+    "name": "🌐 主站 - GTA数据库 (www.antwen.cn)",
     "url": "https://www.antwen.cn",
     "icon": "https://icons.duckduckgo.com/ip3/www.antwen.cn.ico",
-    "slug": "www-antwen-cn",
+    "slug": "gta-www-antwen-cn",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2456,
-    "timeDay": 2456,
-    "timeWeek": 2456,
-    "timeMonth": 2456,
-    "timeYear": 2456,
+    "time": 1441,
+    "timeDay": 1441,
+    "timeWeek": 1441,
+    "timeMonth": 1441,
+    "timeYear": 1441,
     "dailyMinutesDown": {}
   },
   {
-    "name": "📝 博客静态页 (blog.antwen.cn)",
+    "name": "📝 Antwen博客静态页 (blog.antwen.cn)",
     "url": "https://blog.antwen.cn",
     "icon": "https://icons.duckduckgo.com/ip3/blog.antwen.cn.ico",
-    "slug": "blog-antwen-cn",
+    "slug": "antwen-blog-antwen-cn",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 460,
-    "timeDay": 460,
-    "timeWeek": 460,
-    "timeMonth": 460,
-    "timeYear": 460,
+    "time": 291,
+    "timeDay": 291,
+    "timeWeek": 291,
+    "timeMonth": 291,
+    "timeYear": 291,
     "dailyMinutesDown": {}
   },
   {
@@ -41,18 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/119.45.250.96.ico",
     "slug": "🗄️-数据库-南京腾讯云",
     "status": "down",
-    "uptime": "24.26%",
-    "uptimeDay": "24.26%",
-    "uptimeWeek": "24.26%",
-    "uptimeMonth": "24.26%",
-    "uptimeYear": "24.26%",
+    "uptime": "3.42%",
+    "uptimeDay": "3.42%",
+    "uptimeWeek": "3.42%",
+    "uptimeMonth": "3.42%",
+    "uptimeYear": "3.42%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-15": 1
+      "2026-06-15": 5
     }
   },
   {
@@ -61,18 +61,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/122.51.43.41.ico",
     "slug": "a",
     "status": "down",
-    "uptime": "31.88%",
-    "uptimeDay": "31.88%",
-    "uptimeWeek": "31.88%",
-    "uptimeMonth": "31.88%",
-    "uptimeYear": "31.88%",
+    "uptime": "3.41%",
+    "uptimeDay": "3.41%",
+    "uptimeWeek": "3.41%",
+    "uptimeMonth": "3.41%",
+    "uptimeYear": "3.41%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-15": 0
+      "2026-06-15": 5
     }
   },
   {
@@ -81,18 +81,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/115.175.19.85.ico",
     "slug": "b",
     "status": "down",
-    "uptime": "54.33%",
-    "uptimeDay": "54.33%",
-    "uptimeWeek": "54.33%",
-    "uptimeMonth": "54.33%",
-    "uptimeYear": "54.33%",
+    "uptime": "3.84%",
+    "uptimeDay": "3.84%",
+    "uptimeWeek": "3.84%",
+    "uptimeMonth": "3.84%",
+    "uptimeYear": "3.84%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-15": 0
+      "2026-06-15": 5
     }
   }
 ]
