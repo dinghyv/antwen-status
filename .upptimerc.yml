@@ -1,31 +1,51 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# ==========================================
+# 基础信息配置（请把这里的 antwen 替换为你的 GitHub 用户名）
+# ==========================================
+owner: antwen # 👈 如果你的GitHub用户名不是antwen，请修改这里
+repo: status # 👈 你的仓库名，如果是uptime或status，请对应修改
 
+# ==========================================
+# 监控目标配置
+# ==========================================
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  # 1. 网站域名监控（带 CDN）
+  - name: 🌐 主站 (www.antwen.cn)
+    url: https://www.antwen.cn
+    method: GET
 
+  - name: 📝 博客静态页 (blog.antwen.cn)
+    url: https://blog.antwen.cn
+    method: GET
+
+  # 2. 后端服务器与数据库监控
+  - name: 🗄️ 数据库 - 南京腾讯云
+    url: tcp://119.45.250.96:3306 # 监控MySQL默认端口（如不对可改回22）
+
+  - name: 💻 应用服务器A - 上海腾讯云
+    url: tcp://122.51.43.41:3030 # 👈 已改为你的后端服务端口 3030
+
+  - name: 💻 应用服务器B - 上海华为云
+    url: tcp://115.175.19.85:3030 # 👈 已改为你的后端服务端口 3030
+
+# ==========================================
+# 状态页外观与展示配置
+# ==========================================
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # 默认注释掉了 cname。如果你想用类似 status.antwen.cn 的自定义域名，可以取消下一行的注释
+  # cname: status.antwen.cn 
+  
+  # 如果不用自定义域名，必须开启 baseUrl（注意要把 /status 改成你实际的仓库名）
+  baseUrl: /status 
+  
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: "Antwen 服务状态监控中心"
+  introTitle: "**Antwen** 站点及服务器实时运行状态"
+  introMessage: "本页面自动监测核心域名、各节点应用服务器及数据库的连通性。数据由 GitHub Actions 提供，每 5 分钟自动更新一次。"
+  
   navbar:
-    - title: Status
+    - title: 运行状态
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: 主站
+      href: https://www.antwen.cn
+    - title: 博客
+      href: https://blog.antwen.cn
