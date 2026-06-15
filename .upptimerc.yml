@@ -1,46 +1,40 @@
 # ==========================================
-# 基础信息配置（请把这里的 antwen 替换为你的 GitHub 用户名）
+# 基础信息配置
 # ==========================================
-owner: dinghyv # 👈 如果你的GitHub用户名不是antwen，请修改这里
-repo: antwen-status # 👈 你的仓库名，如果是uptime或status，请对应修改
+owner: dinghyv
+repo: antwen-status
 
 # ==========================================
-# 监控目标配置
+# 监控目标配置（仅保留 HTTPS 域名监控）
 # ==========================================
 sites:
-  # 1. 网站域名监控（带 CDN）
-  - name: 🌐 主站 - GTA数据库 (www.antwen.cn)
+  - name: 🌐 主站 - GTA数据库
     url: https://www.antwen.cn
     method: GET
 
-  - name: 📝 Antwen博客静态页 (blog.antwen.cn)
+  - name: 📝 DINGHY 博客静态页
     url: https://blog.antwen.cn
     method: GET
 
-  # 2. 后端服务器与数据库监控
-  - name: 🗄️ 数据库 - 南京腾讯云
-    url: tcp://119.45.250.96:3306 # 监控MySQL默认端口（如不对可改回22）
-
-  - name: 💻 应用服务器A - 上海腾讯云
-    url: tcp://122.51.43.41:3030 # 👈 已改为你的后端服务端口 3030
-
-  - name: 💻 应用服务器B - 上海华为云
-    url: tcp://115.175.19.85:3030 # 👈 已改为你的后端服务端口 3030
+  - name: 🤖 大模型中转站 (CPA)
+    url: https://cpa.antwen.cn
+    method: GET
 
 # ==========================================
-# 状态页外观与展示配置
+# 状态页外观与安全展示配置
 # ==========================================
 status-website:
-  # 默认注释掉了 cname。如果你想用类似 status.antwen.cn 的自定义域名，可以取消下一行的注释
-  # cname: status.antwen.cn 
+  # 使用默认的 github.io 访问，防止域名解析故障时无法查看
+  baseUrl: /antwen-status
+  # cname: status.antwen.cn # 保持注释
   
-  # 如果不用自定义域名，必须开启 baseUrl（注意要把 /status 改成你实际的仓库名）
-  baseUrl: /antwen-status 
-  
+  # 🔒 开启隐私模式：这会隐藏所有监控项的真实 URL 网址，公开状态页上只显示上面定义的 name 
+  secretUrls: true
+
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: "Antwen 服务状态监控中心"
-  introTitle: "**Antwen** 站点及服务器实时运行状态"
-  introMessage: "本页面自动监测核心域名、各节点应用服务器及数据库的连通性。数据由 GitHub Actions 提供，每 5 分钟自动更新一次。"
+  introTitle: "**Antwen** 站点实时运行状态"
+  introMessage: "本页面自动监测核心域名的连通性与响应延迟。数据由 GitHub Actions 提供，每 5 分钟自动更新一次。"
   
   navbar:
     - title: 运行状态
