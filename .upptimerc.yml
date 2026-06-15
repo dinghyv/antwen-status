@@ -9,11 +9,11 @@ repo: status # 👈 你的仓库名，如果是uptime或status，请对应修改
 # ==========================================
 sites:
   # 1. 网站域名监控（带 CDN）
-  - name: 🌐 主站 (www.antwen.cn)
+  - name: 🌐 主站 - GTA数据库 (www.antwen.cn)
     url: https://www.antwen.cn
     method: GET
 
-  - name: 📝 博客静态页 (blog.antwen.cn)
+  - name: 📝 Antwen博客静态页 (blog.antwen.cn)
     url: https://blog.antwen.cn
     method: GET
 
@@ -35,7 +35,7 @@ status-website:
   # cname: status.antwen.cn 
   
   # 如果不用自定义域名，必须开启 baseUrl（注意要把 /status 改成你实际的仓库名）
-  baseUrl: /status 
+  baseUrl: /antwen-status 
   
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: "Antwen 服务状态监控中心"
