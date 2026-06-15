@@ -1,8 +1,8 @@
 # ==========================================
 # 基础信息配置（请把这里的 antwen 替换为你的 GitHub 用户名）
 # ==========================================
-owner: antwen # 👈 如果你的GitHub用户名不是antwen，请修改这里
-repo: status # 👈 你的仓库名，如果是uptime或status，请对应修改
+owner: dinghyv # 👈 如果你的GitHub用户名不是antwen，请修改这里
+repo: antwen-status # 👈 你的仓库名，如果是uptime或status，请对应修改
 
 # ==========================================
 # 监控目标配置
