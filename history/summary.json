@@ -4,25 +4,27 @@
     "url": "https://www.antwen.cn",
     "icon": "https://icons.duckduckgo.com/ip3/www.antwen.cn.ico",
     "slug": "gta",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
     "time": 1954,
     "timeDay": 2604,
     "timeWeek": 1961,
     "timeMonth": 1954,
     "timeYear": 1954,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-23": 5
+    }
   },
   {
     "name": "📝 DINGHY 博客静态页",
     "url": "https://blog.antwen.cn",
     "icon": "https://icons.duckduckgo.com/ip3/blog.antwen.cn.ico",
     "slug": "dinghy",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -33,7 +35,9 @@
     "timeWeek": 389,
     "timeMonth": 360,
     "timeYear": 360,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-23": 0
+    }
   },
   {
     "name": "🤖 大模型中转站 (CPA)",
