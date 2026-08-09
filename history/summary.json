@@ -4,12 +4,12 @@
     "url": "https://www.antwen.cn",
     "icon": "https://icons.duckduckgo.com/ip3/www.antwen.cn.ico",
     "slug": "gta",
-    "status": "up",
-    "uptime": "99.63%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.86%",
-    "uptimeYear": "99.63%",
+    "status": "down",
+    "uptime": "99.62%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.62%",
     "time": 2765,
     "timeDay": 3559,
     "timeWeek": 9567,
@@ -18,7 +18,8 @@
     "dailyMinutesDown": {
       "2026-06-23": 172,
       "2026-07-04": 62,
-      "2026-07-11": 60
+      "2026-07-11": 60,
+      "2026-08-09": 5
     }
   },
   {
@@ -26,12 +27,12 @@
     "url": "https://blog.antwen.cn",
     "icon": "https://icons.duckduckgo.com/ip3/blog.antwen.cn.ico",
     "slug": "dinghy",
-    "status": "up",
-    "uptime": "99.64%",
+    "status": "down",
+    "uptime": "99.65%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.87%",
-    "uptimeYear": "99.64%",
+    "uptimeYear": "99.65%",
     "time": 542,
     "timeDay": 907,
     "timeWeek": 1023,
@@ -40,7 +41,8 @@
     "dailyMinutesDown": {
       "2026-06-23": 167,
       "2026-07-04": 57,
-      "2026-07-11": 55
+      "2026-07-11": 55,
+      "2026-08-09": 0
     }
   },
   {
