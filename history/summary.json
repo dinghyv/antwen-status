@@ -56,17 +56,17 @@
     "url": "https://cpa.antwen.cn",
     "icon": "https://icons.duckduckgo.com/ip3/cpa.antwen.cn.ico",
     "slug": "cpa",
-    "status": "down",
-    "uptime": "68.44%",
-    "uptimeDay": "97.70%",
-    "uptimeWeek": "87.51%",
+    "status": "up",
+    "uptime": "68.37%",
+    "uptimeDay": "81.93%",
+    "uptimeWeek": "85.26%",
     "uptimeMonth": "67.27%",
-    "uptimeYear": "68.44%",
-    "time": 1521,
-    "timeDay": 3348,
-    "timeWeek": 2988,
-    "timeMonth": 3453,
-    "timeYear": 1521,
+    "uptimeYear": "68.37%",
+    "time": 1527,
+    "timeDay": 2827,
+    "timeWeek": 2926,
+    "timeMonth": 3423,
+    "timeYear": 1527,
     "dailyMinutesDown": {
       "2026-10-11": 1067,
       "2026-10-10": 1440,
@@ -121,7 +121,7 @@
       "2026-10-31": 369,
       "2026-11-03": 323,
       "2026-11-05": 903,
-      "2026-11-10": 33
+      "2026-11-10": 260
     }
   }
 ]
