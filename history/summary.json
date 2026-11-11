@@ -12,7 +12,7 @@
     "uptimeYear": "99.77%",
     "time": 3194,
     "timeDay": 3906,
-    "timeWeek": 4427,
+    "timeWeek": 4641,
     "timeMonth": 3573,
     "timeYear": 3194,
     "dailyMinutesDown": {
@@ -31,14 +31,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/blog.antwen.cn.ico",
     "slug": "dinghy",
     "status": "up",
-    "uptime": "99.78%",
+    "uptime": "99.79%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.78%",
+    "uptimeYear": "99.79%",
     "time": 1056,
     "timeDay": 1023,
-    "timeWeek": 1326,
+    "timeWeek": 1313,
     "timeMonth": 1506,
     "timeYear": 1056,
     "dailyMinutesDown": {
@@ -57,14 +57,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/cpa.antwen.cn.ico",
     "slug": "cpa",
     "status": "down",
-    "uptime": "68.53%",
-    "uptimeDay": "81.92%",
-    "uptimeWeek": "88.46%",
-    "uptimeMonth": "69.52%",
-    "uptimeYear": "68.53%",
+    "uptime": "68.51%",
+    "uptimeDay": "77.50%",
+    "uptimeWeek": "87.83%",
+    "uptimeMonth": "69.38%",
+    "uptimeYear": "68.51%",
     "time": 1530,
     "timeDay": 2488,
-    "timeWeek": 2784,
+    "timeWeek": 2757,
     "timeMonth": 3513,
     "timeYear": 1530,
     "dailyMinutesDown": {
@@ -122,7 +122,7 @@
       "2026-11-03": 323,
       "2026-11-05": 903,
       "2026-11-10": 260,
-      "2026-11-11": 0
+      "2026-11-11": 64
     }
   }
 ]
